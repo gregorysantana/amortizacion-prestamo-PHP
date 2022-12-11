@@ -11,3 +11,5 @@ function calcularAmortizacion($dias, $tasaInteres) {
   // Devolver el valor de la amortización
   return $amortizacion;
 }
+
+$amortizacion = calcularAmortizacion(180, 0.05);
